@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+.conteiner {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    align-content: flex-start;
+    height: 250px;
+    align-items: center;
+    background-image: linear-gradient(
+            to bottom left,
+            rgba(251, 251, 251, 0.719),
+            rgba(99, 151, 210, 0.849)
+        ),
+        url(https://cdn.pixabay.com/photo/2016/11/11/20/05/waves-1817646__340.png);
+}
+
+#photoProfil {
+    margin-right: 10px;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+#photoProfil img {
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+    clip-path: ellipse(50% 33%);
+    overflow: hidden;
+}
+
+#texteHeader {
+    max-width: 400px;
+}
+
+#informationsPerso {
+    background-color: rgba(99, 151, 210, 0.749);
+    margin: 10;
+    padding: 10px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+#informationsPerso img {
+    width: 20px;
+}
+
+main {
+    display: flex;
+}
+
+#sectionUn {
+    width: 25%;
+    background-color: rgba(99, 151, 210, 0.849);
+}
+
+#sectionDeux {
+    width: 75%;
+}
+
+p {
+    margin: 0;
+}
